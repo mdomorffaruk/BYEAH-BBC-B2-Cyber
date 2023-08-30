@@ -1,0 +1,155 @@
+
+ 2001  lsusb 
+ 2002  cd Desktop/
+ 2003  mkdir IM-W4M2
+ 2004  cd IM-W4M2/
+ 2005  vim data.txt
+ 2006  ls
+ 2007  vim data.txt
+ 2008  ls 
+ 2009  ls -lash
+ 2010  ls
+ 2011  cat QS.txt 
+ 2012  cat data.txt
+ 2013  cat data.txt | grep 'nothing'
+ 2014  cat QS.txt 
+ 2015  cat data.txt | grep '91.108.23.100'
+ 2016  cat data.txt | grep '91.108.23.100' > QS1Ans.txt
+ 2017  cat QS1Ans.txt 
+ 2018  cat QS.txt 
+ 2019  cat data.txt | grep '91.108.23.100' > QS2Ans.txt
+ 2020  #cat data.txt | grep 'TCP' > QS2Ans.txt
+ 2021  cat QS2Ans.txt 
+ 2022  ls
+ 2023  cat data.txt | grep 'TCP' >> QS2Ans.txt
+ 2024  cat QS2Ans.txt 
+ 2025  cat QS2Ans.txt | less
+ 2026  cat data.txt | grep 'TCP' > QS2Ans.txt
+ 2027  cat QS2Ans.txt | less
+ 2028  ls
+ 2029  cat QS.txt 
+ 2030  cat data.txt |less
+ 2031  awk --help
+ 2032  man awk
+ 2033  cat QS.txt 
+ 2034  cat data.txt |less
+ 2035  awk '{print $1}' data.txt
+ 2036  awk '{print $1}' data.txt |less
+ 2037  awk '{print $4}' data.txt |less
+ 2038  awk '{print $4}' data.txt | uniq | less
+ 2039  awk '{print $4}' data.txt | uniq 
+ 2040  awk '{print $4}' data.txt |
+ 2041  awk '{print $4}' data.txt > test.txt
+ 2042  cat test.txt 
+ 2043  cat data.txt 
+ 2044  cat test.txt |less
+ 2045  uniq test.txt 
+ 2046  uniq --help
+ 2047  cat test.txt | uniq -u
+ 2048  sort test.txt | less
+ 2049  sort test.txt | uniq 
+ 2050  sort test.txt | uniq > QS3Ans.txt
+ 2051  cat QS3Ans.txt 
+ 2052  cat QS.txt 
+ 2053  ping www.google.com
+ 2054  nslookup www.google.com
+ 2055  host www.google.com
+ 2056  host google.com
+ 2057  whatweb www.google.com
+ 2058  whatis www.google.com
+ 2059  nmap -h
+ 2060  nmap www.google.com
+ 2061  host www.google.com
+ 2062  cat QS.txt 
+ 2063  host www.google.com | awk '{print $4}'
+ 2064  host www.google.com | awk '{print $4}'| head
+ 2065  host www.google.com | awk '{print $4}'| head -n 6
+ 2066  host www.google.com | awk '{print $4}'| head -n 7
+ 2067  host www.google.com | awk '{print $4}'| head -n 6
+ 2068  host www.google.com | awk '{print $4}'
+ 2069  host www.google.com | awk '{print $4}'| head -n 6
+ 2070  host www.google.com | awk '{print $4}'| head -n 6 > test2.txt
+ 2071  mv test2.txt google_ip.txt
+ 2072  ls
+ 2073  cat google_ip.txt 
+ 2074  cat data.txt | grep '142.250.4.147' | less
+ 2075  cat data.txt | grep '142.250.4.106' | less
+ 2076  cat data.txt | grep '142.250.4.105' | less
+ 2077  cat data.txt | grep '142.250.4.104' | less
+ 2078  cat data.txt | grep '142.250.4.99' | less
+ 2079* cat data.txt | grep '142.250.4.103' |
+ 2080  cat QS.txt 
+ 2081  cat data.txt | grep '142.250.4.147' | less
+ 2082  cat data.txt | grep '142.250.4.147' > findgoogle.sh
+ 2083  ls
+ 2084  ls -lash
+ 2085  sudo chmod +x findgoogle.sh 
+ 2086  ls
+ 2087  ls -lash findgoogle.sh 
+ 2088  cat findgoogle.sh 
+ 2089  echo "" > findgoogle.sh 
+ 2090  cat findgoogle.sh 
+ 2091  ls
+ 2092  echo "cat data.txt | grep '142.250.4.147'" > findgoogle.sh
+ 2093  cat findgoogle.sh 
+ 2094  ./findgoogle.sh 
+ 2095  bash findgoogle.sh 
+ 2096  ls
+ 2097  cat data.txt | grep UDP
+ 2098  vim findgoogle.sh 
+ 2099  cat findgoogle.sh 
+ 2100  ./findgoogle.sh 
+ 2101  vim findgoogle.sh 
+ 2102  ./findgoogle.sh 
+ 2103  vim findgoogle.sh 
+ 2104  ./findgoogle.sh 
+ 2105  cat /etc/bash.bashrc
+ 2106  wc /etc/bash.bashrc
+ 2107  cat /etc/bash.bashrc
+ 2108  cat /etc/bash.bashrc | less
+ 2109  ls
+ 2110  vim findgoogle.sh 
+ 2111  ./findgoogle.sh 
+ 2112  vim findgoogle.sh 
+ 2113  ./findgoogle.sh 
+ 2114  ./findgoogle.sh > QS4Ans.txt
+ 2115  cat QS4Ans.txt | less
+ 2116  ls
+ 2117  cat QS.txt 
+ 2118  cat data.txt | less
+ 2119  awk '{print $5}' data.txt | less
+ 2120  awk '{print $6}' data.txt | less
+ 2121  cat data.txt | less
+ 2122  awk '{print $6}' data.txt | less
+ 2123  echo "awk '{print $6}' data.txt " > q5BashScript.sh
+ 2124  ls
+ 2125  sudo chmod +x q5BashScript.sh 
+ 2126  ls
+ 2127  cat q5BashScript.sh 
+ 2128  vim q5BashScript.sh 
+ 2129  ./q5BashScript.sh 
+ 2130  vim q5BashScript.sh 
+ 2131  awk '{print $6}' data.txt > q5Data.txt
+ 2132* 
+ 2133  vim q5BashScript.sh 
+ 2134  ./q5BashScript.sh 
+ 2135  vim q5BashScript.sh 
+ 2136  ls
+ 2137  vim q5BashScript.sh 
+ 2138  ./q5BashScript.sh 
+ 2139  vim q5BashScript.sh 
+ 2140  ls
+ 2141  ./q5BashScript.sh 
+ 2142  vim q5BashScript.sh 
+ 2143  ./q5BashScript.sh 
+ 2144  cat q5Data.txt 
+ 2145  ls
+ 2146  cat greterThan153.txt 
+ 2147  cat lessThan153.txt 
+ 2148  ls
+ 2149  cat QS.txt 
+ 2150  history
+
+
+
+

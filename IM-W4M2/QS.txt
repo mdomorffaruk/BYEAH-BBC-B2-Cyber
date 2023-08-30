@@ -1,0 +1,5 @@
+1. We have to find data that include '91.108.23.100' IP address. 
+2. We have to find all data that are using TCP protocol.
+3. We have to get all receiver IP address, but not repeated address.
+4. find google.com IP address form them, and filter the data.
+5. Devide two seperate file based on length, which are greater then 153 , and less then 153
