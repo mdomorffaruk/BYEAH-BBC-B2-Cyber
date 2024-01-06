@@ -24,7 +24,7 @@ def sentEmail():
     
     smtp_server= "smtp.gmail.com"
     smtp_port=465
-    sender_auth_key="mnhdnepqigtjxqwe"
+    sender_auth_key="YOUR_AUTH_KEY"
 
     # Data from input: 
     recipients_email = email_to_entry.get()
